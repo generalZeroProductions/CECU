@@ -1,0 +1,89 @@
+
+	#mainMenu {
+		cursor: default;
+		background-color: #fff;
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.0)), url("images/bg01.png");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,1,0,0.0)), url("images/bg01.png");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.0)), url("images/bg01.png");
+		background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.0)), url("images/bg01.png");
+		padding: 0;
+	}
+
+
+		#mainMenu:after {
+			content: '';
+			display: block;
+			width: 100%;
+			height: 0.75em;
+			background-color: #f58327; /*color bar*/
+			background-image: url("images/bg01.png");
+		}
+
+		#mainMenu > ul {
+			margin: 0;
+		}
+
+			#mainMenu > ul > li {
+				position: relative;
+				display: inline-block;
+				margin-left: 3em;
+			}
+
+				#mainMenu > ul > li a {
+					color: #000;
+					text-decoration: none;
+					border: 0;
+					display: block;
+					padding: 1.5em 0.5em 1.35em 0.5em;
+				}
+
+				#mainMenu > ul > li:first-child {
+					margin-left: 0;
+				}
+
+				#mainMenu > ul > li:hover a {
+					color: #ff6600;
+				}
+
+				#mainMenu > ul > li.current {
+					font-weight: 600;
+				}
+
+					#mainMenu > ul > li.current:before {
+						-moz-transform: rotateZ(45deg);
+						-webkit-transform: rotateZ(45deg);
+						-ms-transform: rotateZ(45deg);
+						transform: rotateZ(45deg);
+						width: 0.75em;
+						height: 0.75em;
+						content: '';
+						display: block;
+						position: absolute;
+						bottom: -0.5em;
+						left: 50%;
+						margin-left: -0.375em;
+						background-color: #f58327; /*diamond*/
+						background-image: url("images/bg01.png");
+					}
+
+					#mainMenu > ul > li.current a {
+						color: #ff6600;
+					}
+
+				#mainMenu > ul > li.active a {
+					color: #ff6600;
+				}
+
+				#mainMenu > ul > li.active.current:before {
+					opacity: 0;
+				}
+
+				#mainMenu > ul > li > ul {
+					display: none;
+				}
+@media screen and (max-width: 840px) {
+	#mainMenu ul {
+		display:none;
+	}
+
+}

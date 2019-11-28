@@ -1,0 +1,848 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
+
+
+/* ------------------------------------------------------ Index Page Adjustments ---------------------------------------  */
+
+#bigLogo img{
+  width:22%;
+
+}
+#littleLogo{
+  height:50px;
+}
+
+.wrapper.style1.homePageAdjust {
+  padding-top: 1000px;
+}
+.image.featured.sponsor{
+  margin-bottom: 0px;
+}
+.section.style14{
+  background-color: #eee;
+  padding:1.5em;
+}
+.style14 h2{
+  font-size: 16pt;
+}
+
+
+
+.summitText header h2{
+  color: white;
+  padding-right: 1em;
+  position:relative;
+  text-align: right;
+  z-index:10000;
+  margin-top:-3em;
+}
+
+
+#frontPageSummitAd{
+  padding-bottom: 0px;
+  margin-bottom: 1em;
+}
+
+#sponsorOne{
+  padding-top: 0px;
+  padding-left:0px;
+
+}
+#sponsorTwo{
+  padding-top: 0px;
+  padding-left:0px;
+  padding-right:0px;
+
+}
+#sponsorThree{
+  padding-top: 0px;
+  padding-left:0px;
+
+}
+
+/* --------------------------------------------------------  Event Promotions Adjustments   ABOVE MEDIA------------------------------- */
+
+
+#eventBanner{
+  padding-bottom:0.25em;
+  background-image: url("../../images/identity/summitBanner.jpg");
+  background-position: top right;
+  background-size: cover;
+  height: 22em;
+  text-align: center;
+  position: relative;
+
+}
+.image.featured.eventBanner{
+  margin-bottom:0.25em;
+}
+
+#eventDayPlan{
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+}
+
+#bottomButton{
+  padding-top:0.25em;
+  padding-bottom: 2em;
+}     /*  pretty sure this button is on the event registration page.   this spacing didn't seem like it should be necesaary .  */
+
+
+
+
+
+/*     .............................................  All of this should be tossed.       01-19-2018
+#eventHigh h4{
+  color:333;
+  padding-bottom: 0.1em;
+  padding-top: 0.35em;
+  line-height: 0.3em
+}
+
+#eventHigh h3{
+  margin-top: -.3em;
+  padding-bottom: 0.35em;
+  padding-top: 0.35em;
+  line-height: 0.3em
+}
+*/
+
+
+
+
+
+/* -------------------------------  Vaidation ?? -------------    EXTRA CARE HERE   should increase Security in form fields
+/*  ------------------------------------------------------------- Forms and Payment ----ABOVE MEDIA------------------------- */
+#personalInfoFeedback{
+background-color: #dcdcdc;    /*    ------------------  grey out already submitted info during review ---------------*/
+  color:#535353;
+  padding:1em;
+}
+.preformattedResponse{
+  color: #808080;
+}   /*    ------------------  grey out alternating   header  Info ---------------*/
+
+
+#quickEmail{
+  color:#0f9ce0;
+}   /*    ------------------  for summit@ceculasvegas  upon ticket purchase Confirmation   ----------------*/
+ /*    ------------------  NEED TO GO OVER ALL COLORS OF BUTTONS/ UI AND  MATCH WITH LOGO  ----------------*/
+
+ .guestInfo{
+   background-image: url("images/guestRegisterBack.jpg");
+   background-position: top center;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   text-align: left;
+   position: relative;
+   height:14em;
+   padding-left: 1em;
+   padding-right: 1em;
+ }
+ .guestInfo h1{
+   color: black;
+ }
+ .yourInfo{
+   background-image: url("images/yourRegisterBack.jpg");
+   background-position: top center;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   text-align: left;
+   position: relative;
+   height:14em;
+   padding-left: 1em;
+   padding-right: 1em;
+ }
+ .personInfo{
+
+   margin-left: 1em;
+   margin-right: 1em:
+ }
+ .lastNameLeft{
+   text-align: left;
+ }
+
+
+
+
+/*
+.row.\32 00\25 > .shiftBioUp{
+  padding-top: 0.75em;
+}
+
+.................................  About us Page Adjustments     ABOVE MEDIA   .........................*/
+
+
+.organizerName{
+  text-align: right;
+}
+.organizerName p{
+  padding-top: .03em;
+  margin-bottom: 0px;
+}
+.organizerName h3{
+  margin-bottom: 0.05em;
+  padding-bottom: .03em;
+}
+
+
+
+
+
+
+
+/* -----------------------------------------------------------    Project Page Adjustments  ABOVE MEDIA--------------------------------------- */
+
+.wrapper.style7{
+  background-color: #eee;
+}
+
+.wrapper.style1 hr{
+  border-top: solid 3px #666;
+    border: 2;
+    margin-bottom: 1.5em
+}
+
+
+/* -------------------------------------------------------  News and Photo Gallery Adjustments  ------------------------------*/
+#newsOneMarker p{
+  padding-bottom: 1em;
+  margin-bottom: 0px;
+}
+.wrapper.newsPhotoUI{
+  padding-top:0px;
+}
+.newsCaption {
+  margin-bottom: 0px;
+
+}
+
+.newsUI{
+  background-color: none;
+  padding: 0px 0px 0px 0px;
+}
+.newsThumb img{
+	width:112px;
+}
+.style15{
+	background-color: none;
+}
+
+
+#testLeft{
+  background-color: none;
+
+}
+#testLeft ul li{
+  padding-bottom: 0.3em;
+  display:inline-flex;
+  font-weight: bold;
+
+}
+
+
+
+/* ----------------------------------------------------------   Buttons and General UI Adjustments ----------------------------*/
+
+		input[type="submit"].altGreen,
+		input[type="reset"].altGreen,
+		input[type="button"].altGreen,
+		.button.altGreen {
+			background-color: #24d26b;
+			color: #fff;
+		}
+
+			input[type="submit"].altGreen:hover,
+			input[type="reset"].altGreen:hover,
+			input[type="button"].altGreen:hover,
+			.button.altGreen:hover {
+				background-color: #46d619;
+			}
+
+			input[type="submit"].altGreen:active,
+			input[type="reset"].altGreen:active,
+			input[type="button"].altGreen:active,
+			.button.altGreen:active {
+				background-color: #19d665;
+			}
+
+/*---------#24d26b-- */
+
+
+/* ,,,,,,,......................................................................................   MEDIA QUERIES   >>>>>>>>>>>>>>  --*/
+/* ,,,,,,,......................................................................................   MEDIA QUERIES   >>>>>>>>>>>>>>  --*/
+/* ,,,,,,,......................................................................................   MEDIA QUERIES   >>>>>>>>>>>>>>  --*/
+
+
+
+
+@media screen and (max-width: 1680px) {
+
+  #eventBanner{
+    padding-bottom:0.25em;
+    background-image: url("../../images/identity/summitBanner.jpg");
+    background-position: top right;
+    background-size: cover;
+    height: 18em;
+    text-align: center;
+    position: relative;
+
+  }
+
+/* -----------------------------------------------------------Registration.   1680...............*/
+
+.guestInfo{
+  background-image: url("images/guestRegisterBack.jpg");
+  background-position: center right;
+  background-size: 100% 100%;
+  padding-top: 0px;
+  text-align: left;
+  position: relative;
+  height:14em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.guestInfo h1{
+  padding-bottom: .25em;
+}
+
+.yourInfo{
+  background-image: url("images/yourRegisterBack.jpg");
+  background-position: center right;
+  background-size: 100% 100%;
+  padding-top: 0px;
+  text-align: left;
+  position: relative;
+  height:14em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.lastNameLeft{
+  text-align: left;
+}
+/* ........................................  ----------------- About Us           1680.........*/
+.row.\32 00\25> .orgHeading{
+  text-align: right;
+}
+
+.row.\32 00\25 .orgBioBox{
+  margin-top: -2em;
+}
+
+.row.\32 00\25> .organizerBio{
+  padding-top: 1em;
+}
+.row.\32 00\25> .organizerName{
+  padding-top: 1em;
+}
+
+/* ........................................------------------.......News    1680 .........*/
+
+  .newsThumb img{
+    width:112px;
+  }
+  .newsCaption{
+    text-align: right;
+    margin-top: -9.2em;
+    vertical-align:top;
+
+  }
+  .newsWriteUp{
+    padding-top: 1em;
+  }
+
+/* ........................--------------------------   project   1680 ----------------------------------------*/
+
+.proPhoto{
+  margin-bottom:-90px;
+}
+
+.row.\32 00\25 > .proDesc{
+    padding-top: 3em;
+  margin-bottom: 26px;
+}
+.projectOverview{
+  line-height: 1.5em;
+}
+.projectOverview  h2{
+  padding-top: 0px;
+  padding-bottom: 0.75em;
+  margin-bottom: 0px;
+}
+.projectOverview p{
+  margin:0px;
+}
+.proCategory{
+  margin-top:0px;
+  margin-bottom:-12px;
+
+}
+.proCategory h2{
+  font-size: 28pt;
+  margin-bottom: 3px;
+}
+.proCategory header{
+
+  padding-bottom: 0.5em;
+}
+}/*---------------------------------------------  END   1680      END     1680 -------------------------*/
+
+
+
+
+
+
+/* ---------------------------------------   BEGING   1280     BEGIN     1280    ----------------------*/
+
+
+
+@media screen and (max-width: 1280px) {
+  .newsThumb img{
+    width:88px;
+  }
+  #eventBanner{
+    padding-bottom:0.25em;
+    background-image: url("../../images/identity/summitBanner.jpg");
+    background-position: right center;
+    background-size: cover;
+    height: 18em;
+    text-align: center;
+    position: relative;
+
+  }
+/* ---------------------------------------------------------   Regisration 1280*/
+  .
+    .guestInfo{
+    background-image: url("images/guestRegisterBack.jpg");
+      text-align: left;
+      position: relative;
+      height:14em;
+      padding-left: 1em;
+      padding-right: 1em;
+      padding-bottom: 3em;
+    }
+
+    .guestInfo h1{
+      padding-bottom: 1.5em;
+    }
+
+    .yourInfo{
+      background-image: url("images/yourRegisterBack.jpg");
+      background-position: top center;
+      background-repeat: no-repeat;
+        background-size: cover;
+      text-align: left;
+      position: relative;
+      height:14em;
+      padding-left: 1em;
+      padding-right: 1em;
+    }
+    .lastNameLeft{
+      text-align: left;
+    }
+
+/* ----------------------------------------------   About Us      1280   ----------------------------*/
+
+.row.\32 00\25> .orgHeading{
+  text-align: right;
+}
+
+.row.\32 00\25 .orgBioBox{
+  margin-top: -2em;
+}
+
+.row.\32 00\25> .organizerBio{
+  padding-top: 1em;
+}
+.row.\32 00\25> .organizerName{
+  padding-top: 1em;
+}
+
+/* ------------------------------------------   news 1280 ---------------------------------------- */
+.newsCaption{
+  text-align: right;
+  margin-top: -7.2em;
+  vertical-align:top;
+
+}
+.newsWriteUp{
+  padding-top: 1em;
+}
+
+/* -------------------------------------------    Projecs   980   --------------------------------------------*/
+
+
+.proPhoto{
+  margin-bottom:-90px;
+}
+
+.row.\32 00\25 > .proDesc{
+    padding-top: 3em;
+  margin-bottom: 26px;
+}
+.projectOverview{
+  line-height: 1.5em;
+}
+.projectOverview  h2{
+  padding-top: 0px;
+  padding-bottom: 0.75em;
+  margin-bottom: 0px;
+}
+.projectOverview p{
+  margin:0px;
+}
+.proCategory{
+  margin-top:0px;
+  margin-bottom:-12px;
+
+}
+.proCategory h2{
+  font-size: 28pt;
+  margin-bottom: 3px;
+}
+.proCategory header{
+
+  padding-bottom: 1em;
+}
+
+
+}/* ----------------------------------------------------------    END          1280         END  --------------------*/
+
+
+
+
+
+
+/* ----------------------------------------------------------    BEGIN          980         BEGIN  --------------------*/
+@media screen and (max-width: 980px) {
+  .newsThumb img{
+    width:68px;
+  }
+  #eventBanner{
+    padding-bottom:0.25em;
+    background-image: url("../../images/identity/summitBanner.jpg");
+    background-position: top center;
+    background-size: cover;
+    height: 14em;
+    text-align: center;
+    position: relative;
+
+  }
+
+  /*  ----------------------------------------------------------  Registration 980 -----------------*/
+
+  .guestInfo{
+    background-image: url("images/guestRegisterBack.jpg");
+    background-position: top right;
+    background-size: cover;
+    text-align: left;
+    position: relative;
+    height:14em;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  .guestInfo h1{
+    padding-bottom: 1px;
+  }
+
+  .yourInfo{
+    background-image: url("images/yourRegisterBack.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+      background-size: cover;
+    text-align: left;
+    position: relative;
+    height:14em;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  .lastNameLeft{
+    text-align: left;
+  }
+
+
+
+/* ------------------------------------    Anout Us   980   --------------------------*/
+.row.\32 00\25 .orgBioBox{
+  margin-top: -12em;
+}
+.row.\32 00\25> .organizerBio{
+  padding-top: 1em;
+}
+.row.\32 00\25> .organizerName{
+  padding-top: 1em;
+}
+
+.row.\32 00\25 > .orgHeading{
+  padding-top: 3em;
+}
+
+
+.row.\32 00\25> .orgHeading{
+  text-align: right;
+}
+/* --------------------------------------   news   980    ----------------------------- */
+.newsThumb img{
+  width:86px;
+}
+
+.row.\32 00\25 > .newsThumbsBox{
+
+}
+
+.newsCaption{
+  text-align: right;
+  font-size: 10pt;
+  margin-top: -10em;
+  vertical-align:top;
+
+}
+.newsWriteUp{
+  padding-top: 1em;
+}
+/* --------------------------------------------   project    980 -------------------------*/
+
+.proPhoto{
+  margin-bottom:-90px;
+}
+
+.row.\32 00\25 > .proDesc{
+    padding-top: 3em;
+  margin-bottom: 26px;
+}
+.projectOverview{
+  line-height: 1.5em;
+}
+.projectOverview  h2{
+  padding-top: 0px;
+  padding-bottom: 0.75em;
+  margin-bottom: 0px;
+}
+.projectOverview p{
+  margin:0px;
+}
+.proCategory{
+  margin-top:0px;
+  margin-bottom:-12px;
+
+}
+.proCategory h2{
+  font-size: 28pt;
+  margin-bottom: 3px;
+}
+
+}/* ------------------------------------------------   END  980  END    980   END --------- */
+
+/* ----------------------------------------------------   END DESKTOP LAYOUTS ----------------------*/
+
+/*
+#SummitPromo{
+  position:relative;
+  margin-top: -0.5em;
+  z-index: 1000;
+}
+
+#SummitPromoCopy{
+  position:relative;
+  margin-top: -3.25em;
+  z-index: 5000;
+}
+---------------------------------------------   Not sure if these are releavant*/
+
+
+/* ------------------------------------------------------   BEGIN MOBILE LAYOUTS -----------------------------*/
+/*  ------------------------------------------------------------    BEGIN   840   BEGIN   ----------------------- */
+
+
+@media screen and (max-width: 840px) {
+  .proCategory{
+    margin-top:-30px;
+    margin-bottom:-16px;
+
+  }
+  #eventBanner{
+    padding-bottom:0.25em;
+    background-image: url("../../images/identity/2018SummitBannerMobile.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 14em;
+    text-align: center;
+    position: relative;
+
+  }
+  /* ---------------------------------------------------  Registration   840  ----------------------------- */
+  .guestInfo{
+    background-image: url("images/guestRegisterBack.jpg");
+    background-position: top right;
+    background-size: cover;
+    text-align: left;
+    position: relative;
+    height:14em;
+
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  .guestInfo h1{
+    padding-bottom: .25em;
+  }
+
+  .yourInfo{
+    background-image: url("images/yourRegisterBack.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+      background-size: cover;
+    text-align: left;
+    position: relative;
+    height:14em;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  .lastNameLeft{
+    text-align: left;
+  }
+
+/* ------------------------------------------------------   About Us   840 --------------------*/
+.orgBioBox>*{
+  text-align: left;
+}
+
+
+.row.\32 00\25 .orgBioBox{
+  margin-top: -12em;
+}
+.row.\32 00\25> .organizerBio{
+  padding-top: 1em;
+}
+.row.\32 00\25> .organizerName{
+  padding-top: 1em;
+}
+
+.row.\32 00\25 > .orgHeading{
+  padding-top: 5px;
+}
+
+
+    /* -----------------------------------------------------  news 840 ---------------------*/
+
+        .newsThumb img{
+    			width:84px;
+    		}
+
+        .row.\32 00\25 > .newsThumbsBox{
+          padding-top: 1.5em;
+        }
+
+      .newsCaption{
+          position: absolute;
+          font-size: 10pt;
+          vertical-align:top;
+          margin-top: -9.4em;
+          margin-right: 1em;
+        }
+        .newsWriteUp{
+          padding-top: 2em;
+        }
+    /* --------------------------------------------------------- Projects 840 ----------------------*/
+    .proPhoto{
+      margin-bottom:-90px;
+    }
+    .row.\32 00\25 > .proDesc{
+      margin-bottom: 26px;
+    }
+    .projectOverview{
+      line-height: 1.5em;
+    }
+    .projectOverview  h2{
+      padding-top: 0.75em;
+      padding-bottom: 0.75em;
+      margin-bottom: 0px;
+    }
+    .projectOverview p{
+      margin:0px;
+    }
+    .proCategory{
+      margin-top:0px;
+      margin-bottom:-12px;
+
+    }
+    .proCategory h2{
+      font-size: 28pt;
+    }
+
+
+
+}    /*-----------------------------------------------------   END 840  END ----------------------------*/
+
+/* ---------------------------------------------------------------BEGIN  736  BEGIN -------------------*/
+
+	@media screen and (max-width: 736px) {
+    .proCategory{
+			margin-top:10px;
+			margin-bottom:-8px;
+
+		}
+    #eventBanner{
+      padding-bottom:0.25em;
+      background-image: url("../../images/identity/2018SummitBannerMobile.jpg");
+      background-position: right center;
+      background-size: cover;
+      height: 20em;
+      text-align: center;
+      position: relative;
+
+    }
+
+    /*-----------------------------------------------------    Registration 736 ----------------------------*/
+
+    .guestInfo{
+    background-image: url("images/guestRegisterBack.jpg");
+      background-position: top right;
+      background-size: cover;
+      text-align: left;
+      position: relative;
+      height:14em;
+
+      padding-left: 1em;
+      padding-right: 1em;
+    }
+    .guestInfo h1{
+      padding-bottom: .3em;
+    }
+
+    .yourInfo{
+      background-image: url("images/yourRegisterBack.jpg");
+      background-position: top center;
+      background-repeat: no-repeat;
+        background-size: cover;
+      text-align: left;
+      position: relative;
+      height:14em;
+      padding-left: 1em;
+      padding-right: 1em;
+    }
+
+    .lastNameLeft{
+      text-align: left;
+    }
+    /* --------------------------------------------------------   About Us 736  -------------------- */
+    .orgBioBox>*{
+      text-align: left;
+    }
+
+
+    .row.\32 00\25 .orgBioBox{
+      margin-top: -12em;
+    }
+    .row.\32 00\25> .organizerBio{
+      padding-top: 1em;
+    }
+    .row.\32 00\25> .organizerName{
+      padding-top: 1em;
+    }
+
+    .row.\32 00\25 > .orgHeading{
+      padding-top: 5px;
+    }
+
+
+    /*-----------------------------------------------------    News

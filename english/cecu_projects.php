@@ -9,7 +9,7 @@
 		<link rel="stylesheet" href="assets/css/sub.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 
 	</head>
@@ -17,25 +17,25 @@
 <body>
 	<div id="page-wrapper">
 
-		<?php
-		include "sets/mainHeader.php";
-		?>
+							<?php
+							include "sets/mainHeader.php";
+							?>
 
-		<?php
-		include "content/homePage.php";
-		?>
+							<?php
+							include "content/projects.php";
+							?>
 
-		<?php
-		include "sets/footer.php"
-		?>
+							<?php
+							include "sets/footer.php"
+							?>
 </div>
 	<!-- Scripts -->
 	<!-- <script src="assets/js/jquery.min.js"></script> -->
-	<!-- <script src="assets/js/jquery.dropotron.min.js"></script>
+	<script src="assets/js/jquery.dropotron.min.js"></script>
 	 <script src="assets/js/skel.min.js"></script>
 	<script src="assets/js/util.js"></script>
-	
-	<script src="assets/js/main.js"></script> -->
-<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="assets/js/main.js"></script>
+
 	</body>
 	</html>

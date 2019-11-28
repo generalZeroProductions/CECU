@@ -1,0 +1,139 @@
+<?php
+echo '<section id="banner">
+	<header>
+		<h2> 把商机带至 <em>拉斯维加斯</em></h2>
+	</header>
+</section>
+
+
+
+
+
+	<section class="wrapper style1">
+		<div class="container">
+			<div class="row 200%">
+				<div class="8u 12u(narrower)">
+					<div id="content">
+							<section>
+								<article>
+									<header>
+										<h2>CECU </h2>
+										<p>商業聯合委員會</p>
+									</header>
+									<p>投资并不难，只要您与合适的人一起工作。您需要可靠的数据；您期望效率；你需要向前进。您不仅仅需要一个主持人，
+									一个合同，甚至是一个合作伙伴。您需要结果，而我们认为您应该拥有它们。</p>
+									<p>CECU投资集团在亚洲和美国内华达州的拉斯维加斯，北拉斯维加斯以及亨德森市之间具有独特的地位。
+									我们的服务可以为您量身定制，使任何行业的大中型投资者均可受益。</p>
+									<p>我们提供完整的尽职调查，市场分析，房地产和许可证收购，行政安置和投资计划发展。无论您是想投资，
+									还是寻找投资者，今天就来和我们谈谈吧！</p>
+								</article>
+							</section>
+					</div>
+				</div>
+				<div class="4u  12u(narrower) important(narrower)">
+					<div id="sidebar">
+						<section>
+							<a href="cecu_events.html">
+								<span class="image featured" id="frontPageSummitAd"><img src="images/identity/palms_summit_ad.jpg"></span>
+							</a>
+							<a href="cecu_events.html">
+								<span class="image featured" id="frontPageSummitAd"><img src="images/identity/palms_summit_ad_two.jpg"></span>
+							</a>
+						</section>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+
+		<div class="container">
+			<span class="image featured" id="frontPageSummitAd"><img src="images/identity/vegasPanorama.jpg"></span><br>
+		</div>
+
+
+		<div class="container">
+			<div class="row 200%">
+				<div class="8u 12u(narrower) important(narrower)">
+					<div id="content">
+							<section>
+								<article>
+									<header>
+										<h2>拉斯維加斯 </h2>
+										<p>跨越式發展</p>
+									</header>
+									<p>拉斯維加斯是過去五年來發展最快的美國城市之一，每月歡迎數千名新居民。
+										鑑於目前和未來的重要性， 投資者正在選擇拉斯維加斯地區投資他們的所有類型的投資機會，包括拉斯維加斯的房地產投資。許多人發現，
+										 拉斯維加斯房地產的投資收益比股票市場的投資更有保證！</p>
+									<h3>有什麼機會？</h3>
+									<p>許多投資者選擇單戶住宅進行投資，因為它們較快，較容易出租。 由於拉斯維加斯的公寓不足，單戶住宅的租金價格一直在穩步上漲。
+										而且，通過特殊的投資者抵押貸款計劃，投資者正在利用正現金流和未來的升值。</p>
+									<p>拉拉斯維加斯擁有巨大的投資機會; 可以投資購物中心、辦公樓、帶狀購物中心、醫療中心、商業和工業物業以及空置土地。
+										高層豪華公寓是拉斯維加斯最新最受歡迎的投資趨勢。投資者在施工前和初始階段定價時購買豪華公寓，
+										唯一的目的是以顯著的利潤轉售這些物業。</p>
+									<h3>有什麼好處？</h3>
+									<p>投資拉斯維加斯房地產的主要好處之一是1031稅務遞延交易所，允許投資者出售和創收財產，購買另一種“同類”財產，
+										並推遲該交易上的所有資本收益。 物業融資是拉斯維加斯的一個增長中的和利潤豐厚的業務。 </p>
+									<p>CECU為安全的物業投資提供全面的諮詢服務。我們提供完整的服務範圍，包括投資地點、投資方式以及如何獲得最大利潤。</p>
+								</article>
+							</section>
+					</div>
+				</div>
+
+
+
+
+				<div class="4u  12u(narrower) ">
+					<div id="sidebar">
+
+						<section>
+							<h3>拉斯維加斯新聞與信息</h3>
+							<ul class="links">
+								<li><a target="_blank" href="http://www.doctorhousingbubble.com/las-vegas-investment-real-estate-cash-buying-las-vegas-bubble-market/">拉斯维加斯住房市场</a></li>
+								<li><a target="_blank" href="https://lasvegassun.com/news/2017/jan/02/forecasting-las-vegas-future-from-new-roads-to-pro/">前方的路</a></li>
+								<li><a target="_blank" href="https://www.reviewjournal.com/sports/raiders-nfl/economists-weigh-economic-impact-of-stadium-for-raiders-in-las-vegas/">190亿美元的体育场</a></li>
+								<li><a target="_blank" href="https://motherboard.vice.com/en_us/article/americas-first-full-scale-hyperloop-test-is-happening-in-las-vegas">超音速运输</a></li>
+								<li><a target="_blank" href="https://www.reviewjournal.com/business/casinos-gaming/fertitta-brothers-investing-500m-in-media-entertainment-and-technology-sectors/">5亿美元的媒体投资</a></li>
+							</ul>
+							<footer>
+								<span class="image featured"><img src="images/identity/paris.jpg"></span>
+							</footer>
+						</section>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<!-- ............................................................................Sponsors................ -->
+
+
+			<div class="container" >
+				<h2>贊助們</h2>
+				<div class="row 200%">
+					<section class="4u 4u(narrower)">
+						<div class="box highlight" id="sponsorOne">
+							<span class="image featured"><a target="_blank" href="http://www.asianamericangroup.org"><img src="images/identity/aag_logo.png"></a></span>
+
+							</div>
+					</section>
+					<section class="4u 4u(narrower)">
+						<div class="box highlight" id="sponsorTwo">
+							<span class="image featured"><a target="_blank" href="http://www.greusa.com"><img src="images/identity/ggr-logo.png"></a></span>
+							</div>
+					</section>
+					<section class="4u 4u(narrower)">
+						<div class="box highlight" id="sponsorThree">
+							<span class="image featured"><a target="_blank" href="http://www.docstrans.com/"><img src="images/identity/docstrans_logo.png"></a></span>
+							</div>
+					</section>
+				</div>
+			</div>
+
+
+
+
+
+
+	</section>';
+  ?>
